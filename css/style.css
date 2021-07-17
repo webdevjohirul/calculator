@@ -1,0 +1,83 @@
+.main {
+    background-color: lavender;
+    margin: auto;
+    padding: 50px;
+    width: 350px;
+}
+
+.calTitle h1 {
+    text-align: center;
+    width: 300px;
+    margin: 10px auto;
+    ;
+}
+
+.calculate {
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+    font-size: 0;
+    transition: 0.4s;
+}
+
+.calculate:hover {
+    box-shadow: 0 15px 30px 0 rgb(0, 0, 0, 0.2);
+}
+
+.calHead {}
+
+.calHead #result {
+    width: 278px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: right;
+    margin-bottom: 1px;
+    padding: 0 5px;
+    letter-spacing: 2px;
+    border: 1px solid gray;
+    outline: 1px solid rgb(117, 115, 116);
+}
+
+.calBody {}
+
+.calBody div input {}
+
+.btn {
+    width: 72px;
+    height: 60px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0.5px;
+}
+
+.btn:hover {
+    background-color: #1a1918bd;
+}
+
+.btnC {
+    background-color: rgb(88, 32, 218);
+}
+
+.btnColor1 {
+    background-color: #FFA501;
+}
+
+.btnColor2 {
+    background-color: turquoise;
+}
+
+.btnColor3 {
+    background-color: violet;
+}
+
+.btnColor4 {
+    background-color: yellowgreen;
+}
+
+.btnColor5 {
+    background-color: tomato;
+}
